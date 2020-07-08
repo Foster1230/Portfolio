@@ -1,0 +1,36 @@
+.dog {
+    border: 6px solid red;
+    border-radius: 25px;
+    border-style: solid;
+    border-color: teal;
+    padding: 25px; 
+    margin: 25px;
+}
+body {
+    background-color: whitesmoke; text-align: center;
+}
+ul {
+    color: blue;
+}
+.header {
+    text-align: center;
+    font-size: 1.5em;
+
+}
+.walrus {
+    border-radius: 25px;
+    border-color: green;
+    border-style: dotted;
+    padding: 25px;
+    background-color: yellow;
+}
+.links {
+    font-family: 'Fondamento', cursive;
+}
+
+
+
+/* First, open the files contained within 02-ColorMyFavoriteMusician. Connect the CSS to the HTML in order to style the page:
+Style the background to yellow
+Style the header to purple
+Style the list items to blue */

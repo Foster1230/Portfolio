@@ -1,22 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-    
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>My Portfolio</title>
-    <h1>My Portfolio</h1>
-    <h2>Other Pages</h2><a href="file:///C:/Users/joshg/Desktop/Portfolio/about.html"target=a_blank>About Me</a> <a href="file:///C:/Users/joshg/Desktop/Portfolio/gallery.html" target=a_blank>Gallery</a><br>
-    <img src="https://cdn.discordapp.com/attachments/728059939628646527/729914236926427146/walarus_2.png" alt="A funny drawing of a walrus"> <p>this is a funny drawing of a walrus</p><br>
-    
+    <link href="https://fonts.googleapis.com/css2?family=Fondamento&display=swap" rel="stylesheet">
+
 </head>
+
 <body>
+    <h1>My Portfolio</h1>
+    <h2>Other Pages</h2><a class="links" href="file:///C:/Users/joshg/Desktop/Portfolio/about.html" target=a_blank>About Me</a>
+    <a class="links"href="file:///C:/Users/joshg/Desktop/Portfolio/gallery.html" target=a_blank>Gallery</a><br>
+    <img  class="walrus" src="https://cdn.discordapp.com/attachments/728059939628646527/729914236926427146/walarus_2.png"
+        alt="A funny drawing of a walrus">
+    <img class="dog" src="data:image/jpeg;base64,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" alt="A very happy dog">
+    <p>this is a funny drawing of a walrus</p><br>
     <div class="content">
         <p>this is some placeholder text. information about me can be found on the "About Me" page</p><br>
         <br>
         <p>this is some more placeholder text</p>
     </div>
 </body>
+
 </html>
-
-
