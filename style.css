@@ -1,16 +1,33 @@
-h1 {
+.header {
     text-align: center;
     font-size: 50px;
+    width: auto;
+    height: 150px;
+    background-color: teal;
 }
 img {
     float: right;
 }
 body {
-    background-color: yellow;
+    background-color: whitesmoke;
 }
 .links {
-    text-align: left;
+    text-align: center;
+    width: 150px;
+    height: 50px;
+    background-color: grey;
 }
 .text {
+    position: relative;
+    display: inline;
+    padding-left: 50px;
+    top: -103px;
+    left: 200px;
+}
+.text2 {
+    display: inline;
+    position: relative;
     text-align: center;
+    left: 200px;
+    top: -155px;
 }
